@@ -1,3 +1,3 @@
-alert ("HI people ")
+alert ("HI people ");
 console.log ("Hello Maxine");
-onsole.log ( 10 + 10 );
+console.log ( 10 + 10 );
