@@ -1,4 +1,4 @@
-alert ("HI people ");
+console.log  ("HI people ");
 console.log ("Hello Maxine");
 console.log ( 10 + 10 );
 //A variable is an abstract location paired with a 
@@ -11,4 +11,5 @@ console.log (username)
 
 //Assigning values after a variable has been declared
 let player;
-player = "plyper"
+username = "plyper"
+console.log (username)
