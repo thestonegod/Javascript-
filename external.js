@@ -10,5 +10,5 @@ let username = ("Stinger")
 console.log (username)
 
 //Assigning values after a variable has been declared
-let username;
-username = "plyper"
+let player;
+player = "plyper"
