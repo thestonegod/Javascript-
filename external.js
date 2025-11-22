@@ -13,3 +13,7 @@ console.log (username)
 let player;
 username = "plyper"
 console.log (username)
+
+let student;
+username = "Sandstone"
+console.log (student)
