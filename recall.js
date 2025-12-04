@@ -65,4 +65,17 @@ let suffering = false
 console.log(adapt)
 
 let girlCoders = 20<70
-console.log(girlCoders)
+console.log(girlCoders);
+
+//Undefined : If a variable is declared but the value is not assigned
+
+//Null: Empty or unknown values
+let power = null;
+console.log(power);
+//A known bug
+console.log(typeof power);
+console.log(null == undefined);
+
+
+//Reference data types
+//Object : A collection of properties
