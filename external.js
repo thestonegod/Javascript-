@@ -15,5 +15,5 @@ username = "plyper"
 console.log (username)
 
 let student;
-student = "Sandstone"
-console.log (student)
+student = "Sandstone";
+console.log (student);

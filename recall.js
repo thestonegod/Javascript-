@@ -6,17 +6,20 @@ var lady=50;
 
 //Newest keyword introduced in ES6
 let $dot= 20
-if($dot >=15) {
+if($dot >=15) 
+    {
     let _fisher = 5;
     console.log(_fisher);
 }
+
+let _fisher = "Keep it all";
+console.log(_fisher);
 
 
 //Constant variables
 //Variables with const can not be reassigned to new values
 const wildLife = "Animals";
 console.log(wildLife) ;
-
 
 
 //Scope
@@ -30,7 +33,7 @@ example();
 //Function scope
 //It is created when a function is declared. Variables within the functon scope aren't visible outside of it
 //Note: Be sure to include semicolons after declaring funtions
-//Note remember to use quotes around string values 
+//Note: remember to use quotes around string values 
 function menu(){
     var list = "Banana, Milk, Butter, Fruit juice";
     console.log(list);
@@ -49,22 +52,25 @@ function blockScope(){
 }
 blockScope();
 
-//Number
+
 //String: Storing and manipulating text
 let firstName = "Anna"
 let lastName = 'Boakye'
 console.log(firstName,lastName)
+console.log(typeof firstName)
 
 //Number: It represents integers & floating point numbers
-let num = '56.83'
+let num = 56.83
 console.log(typeof num)
+console.log(num)
 
 //Boolean
 let adapt = true
 let suffering = false
 console.log(adapt)
+console.log(suffering)
 
-let girlCoders = 20<70
+let girlCoders = 20<70;
 console.log(girlCoders);
 
 //Undefined : If a variable is declared but the value is not assigned
@@ -79,3 +85,4 @@ console.log(null == undefined);
 
 //Reference data types
 //Object : A collection of properties
+
