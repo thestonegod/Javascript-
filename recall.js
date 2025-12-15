@@ -86,14 +86,33 @@ console.log(null == undefined);
 
 //Reference data types
 //Object : A collection of properties where each value is defined as a key-value pair
+//key-value is simply the data assigned to the properties
+//Good for representing complex data structures, entities, or configs
 //An object can store different data data types 
+//You can store other objects in your object by using nested objects and accessing them using dot notation
 let student = {
     firstName : "EL-SHADDAI",
     lastName :'SARBAH',
-    age : 63
+    age : 63,
     programme : 'Cyber Sec.',
+    academics : {
+        gpa : 2.5,
+        courses :['Cybersecurity Essentials', 'Programming in Python', "Descrete Mathematics" ] ,
+        _gradYear : 2029
+    }
 };
 console.log(student);
+console.log(student.academics); //Dot notation
+console.log(JSON.stringify (student, null, 3));//JSON.stringify() with a space parameter to prevent cramming
 console.log(typeof student);
+console.dir(student, {depth: null, colors: true});//Outputs your object in a mire redable format, 
+// with collapsible sections and syntax highlighting
+
+//Arrays are a type of object that stores different/ collection types of values
+//Good for lists, collections of similar items, or sequences of data 
+let movies = ['Snow White', 2, 36, 'Moana 2']
+console.log(movies);
+console.log(typeof movies);
+
 
 
