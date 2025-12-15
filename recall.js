@@ -76,6 +76,7 @@ console.log(girlCoders);
 //Undefined : If a variable is declared but the value is not assigned
 
 //Null: Empty or unknown values
+//In JS null equals void
 let power = null;
 console.log(power);
 //A known bug
@@ -84,5 +85,15 @@ console.log(null == undefined);
 
 
 //Reference data types
-//Object : A collection of properties
+//Object : A collection of properties where each value is defined as a key-value pair
+//An object can store different data data types 
+let student = {
+    firstName : "EL-SHADDAI",
+    lastName :'SARBAH',
+    age : 63
+    programme : 'Cyber Sec.',
+};
+console.log(student);
+console.log(typeof student);
+
 
