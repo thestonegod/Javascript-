@@ -88,7 +88,7 @@ console.log(null == undefined);
 //Object : A collection of properties where each value is defined as a key-value pair
 //key-value is simply the data assigned to the properties
 //Good for representing complex data structures, entities, or configs
-//An object can store different data data types 
+//An object can store different data types 
 //You can store other objects in your object by using nested objects and accessing them using dot notation
 let student = {
     firstName : "EL-SHADDAI",
@@ -105,7 +105,7 @@ console.log(student);
 console.log(student.academics); //Dot notation
 console.log(JSON.stringify (student, null, 3));//JSON.stringify() with a space parameter to prevent cramming
 console.log(typeof student);
-console.dir(student, {depth: null, colors: true});//Outputs your object in a mire redable format, 
+console.dir(student, {depth: null, colors: true});//Outputs your object in a more redable format, 
 // with collapsible sections and syntax highlighting
 
 //Arrays are a type of object that stores different/ collection types of values
