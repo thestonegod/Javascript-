@@ -21,6 +21,17 @@ console.log(_fisher);
 const wildLife = "Animals";
 console.log(wildLife) ;
 
+//Operators
+//exponentiation
+let x = 3 ** 24
+console.log (x)
+
+//Assignment operators
+let game = 'ch';
+game +=  'ch';
+console.log(game);
+
+
 
 //Scope
 //Global scope: Variables & functions declared in global scope are visible from anywhere in the program
