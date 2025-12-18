@@ -21,36 +21,6 @@ console.log(_fisher);
 const wildLife = "Animals";
 console.log(wildLife) ;
 
-//Operators
-//exponentiation
-let x = 3 ** 24;
-console.log (x);
-
-//Addition
-let w = 5;
-w += 3;
-console.log(w);
-
-//Subtraction
-let p = 5;
-p -= 3;
-console.log(p);
-
-//Multiplication
-let abi = 15;
-abi *= 3;
-console.log(abi);
-
-//Do you own with division
-
-
-
-
-//Assignment operators
-let game = 'ch';
-game +=  'ch';
-console.log(game);
-
 
 
 //Scope
@@ -145,5 +115,80 @@ let movies = ['Snow White', 2, 36, 'Moana 2']
 console.log(movies);
 console.log(typeof movies);
 
+//Operators
+//exponentiation
+let x = 3 ** 24;
+console.log (x);
+
+//Addition
+let w = 5;
+w += 3;
+console.log(w);
+
+//Subtraction
+let p = 5;
+p -= 3;
+console.log(p);
+
+//Multiplication
+let abi = 15;
+abi *= 3;
+console.log(abi);
+
+//Do you own with division
+
+//modulo
+let _sam = 15;
+_sam %= 3;
+console.log(_sam);
+
+
+//Assignment operators
+let game = 'ch';
+game +=  'ch';
+console.log(game);
+
+//Increment operator ++
+//These operators can be used as prefix & postfix
+let jean = 10;
+console.log(++ jean);//Prefix
+
+let poly = 10;
+console.log(poly++);
+console.log(poly);//Postfix
+
+//Decrement operator  --
+
+let rose = 8;
+console.log(-- jean);//Prefix
+
+let doc = 8;
+console.log(doc--);//Postfix
+console.log(doc);
+
+//Comparison operators
+a = 24
+c = 15
+
+console.log(a < c);
+console.log(a >c);
+console.log(a <= c);
+console.log(a >= c);
+
+//Equality & inequality
+console.log(a == c);
+console.log(a != c);
+
+//Strict equality & inequality
+console.log(a === c); //Checks data type
+console.log(a !== c);
+
+//Logical operators
+//AND (&&)
+//The AND operator works like basic addition of negative and positive operators
+
+// OR (||)
+//Returns true if one of the operands are true
+// NOT (!)
 
 
