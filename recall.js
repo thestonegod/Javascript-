@@ -23,8 +23,28 @@ console.log(wildLife) ;
 
 //Operators
 //exponentiation
-let x = 3 ** 24
-console.log (x)
+let x = 3 ** 24;
+console.log (x);
+
+//Addition
+let w = 5;
+w += 3;
+console.log(w);
+
+//Subtraction
+let p = 5;
+p -= 3;
+console.log(p);
+
+//Multiplication
+let abi = 15;
+abi *= 3;
+console.log(abi);
+
+//Do you own with division
+
+
+
 
 //Assignment operators
 let game = 'ch';
